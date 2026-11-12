@@ -1,0 +1,2023 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodAcharya | Food Safety, FSSAI, ISO 22000 & Dairy Manufacturing Consulting</title>
+    <meta name="description" content="FoodAcharya delivers practical FSSAI compliance, ISO 22000/HACCP food safety systems, plant layout design, and dairy & food manufacturing consulting across Maharashtra and India." />
+    <meta name="theme-color" content="#083e32" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:title" content="FoodAcharya | Food Safety & Manufacturing Consulting" />
+    <meta property="og:description" content="Hands-on FSSAI, ISO 22000, HACCP, plant layout, and dairy & food manufacturing consulting by Rushikesh Karande (FSMS Lead Auditor). On-ground in Maharashtra & remote across India." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FoodAcharya | Food Safety & Manufacturing Consulting" />
+    <meta name="twitter:description" content="Practical food-safety, quality, plant layout, and operations consulting for food and dairy businesses across Maharashtra & India." />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23083e32'/%3E%3Crect x='10' y='10' width='44' height='44' rx='8' fill='none' stroke='%23d8ed87' stroke-width='3'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Georgia,serif' font-weight='700' font-size='24' fill='%23d8ed87'%3EFA%3C/text%3E%3C/svg%3E" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ProfessionalService",
+            "@id": "#organization",
+            "name": "FoodAcharya",
+            "description": "Food safety, FSSAI compliance, ISO 22000, HACCP, plant layout, and operations consulting for food and dairy manufacturers.",
+            "telephone": "+919892216853",
+            "url": "https://foodacharya.com",
+            "areaServed": [
+              { "@type": "State", "name": "Maharashtra" },
+              { "@type": "Country", "name": "India" }
+            ],
+            "founder": {
+              "@type": "Person",
+              "name": "Rushikesh Karande",
+              "jobTitle": "Founder & FSMS Lead Auditor"
+            },
+            "knowsAbout": [
+              "FSSAI Compliance & Schedule 4 Audits",
+              "ISO 22000 & FSSC 22000 Food Safety Management Systems",
+              "HACCP Implementation",
+              "Dairy Processing & CIP Optimization",
+              "Food Plant Layout & Hygienic Engineering",
+              "New Product Development & Shelf-Life Improvement"
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Do you help with new (Greenfield) food or dairy plant layout before construction?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. We review and design plant layouts for unidirectional man-and-material flow, hygienic zoning, drainage, utility routing, and machinery selection aligned with FSSAI Schedule 4 and ISO 22000 before civil work begins."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does it take to prepare a facility for FSSAI Schedule 4, HACCP, or ISO 22000 certification?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Depending on plant size and current maturity, FSSAI Schedule 4 and HACCP readiness typically takes 4 to 8 weeks, while full ISO 22000 / FSSC 22000 implementation including shop-floor training, internal audits, and CAPA closure takes 8 to 14 weeks."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can your team train shop-floor operators in Marathi and Hindi?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Documentation that stays in a binder does not prevent contamination. We conduct practical shop-floor hygiene, CCP monitoring, and SOP training in Marathi, Hindi, and English so supervisors and operators follow practices daily."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do on-ground consulting in Maharashtra and remote consulting across India work?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "In Maharashtra (Pune, Mumbai, Kolhapur, Satara, Sangli, Nashik, Ahmednagar, Chhatrapati Sambhajinagar, Nagpur), we conduct on-site plant walkthroughs, gap audits, and training. Across India, we combine structured video walkthroughs, layout/CAD reviews, SOP development, and scheduled milestone audits."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+    <style>
+      :root {
+        --green: #083e32;
+        --deep: #062921;
+        --gold: #d8ed87;
+        --gold-hover: #e7f6aa;
+        --olive: #4a6b53;
+        --cream: #f2f1e8;
+        --sage: #e4ecdc;
+        --surface: #fbfaf6;
+        --ink: #132e25;
+        --muted: #4b6158;
+        --border: #b8c9bc;
+        --error: #b3261e;
+        --error-bg: #fceeee;
+        --valid: #18794e;
+      }
+
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 84px;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--surface);
+        font: 1rem/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .visually-hidden:where(:not(:focus-within, :active)) {
+        position: absolute !important;
+        clip-path: inset(50%) !important;
+        overflow: hidden !important;
+        width: 1px !important;
+        height: 1px !important;
+        margin: -1px !important;
+        padding: 0 !important;
+        border: 0 !important;
+        white-space: nowrap !important;
+      }
+
+      .skip-link {
+        position: absolute;
+        top: 0.5rem;
+        left: 1rem;
+        z-index: 100;
+        padding: 0.75rem 1.25rem;
+        background: var(--gold);
+        color: var(--deep);
+        font-weight: 700;
+        border-radius: 0.5rem;
+      }
+
+      .wrap {
+        width: min(1220px, calc(100% - 3rem));
+        margin-inline: auto;
+      }
+
+      /* Navigation */
+      .site-header {
+        background: rgba(251, 250, 246, 0.95);
+        backdrop-filter: blur(8px);
+        color: var(--green);
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        border-bottom: 1px solid #d5e0d4;
+      }
+
+      .nav-bar {
+        min-height: 76px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+      }
+
+      .brand {
+        display: inline-flex;
+        gap: 0.7rem;
+        align-items: center;
+        font-weight: 900;
+        letter-spacing: -0.04em;
+        font-size: 1.35rem;
+        text-transform: lowercase;
+      }
+
+      .brand-mark {
+        width: 38px;
+        height: 38px;
+        display: grid;
+        place-items: center;
+        border: 2px solid var(--green);
+        border-radius: 8px;
+        color: var(--green);
+        background: var(--gold);
+        font: 800 1rem Georgia, serif;
+        transform: rotate(-6deg);
+      }
+
+      .brand-mark b {
+        transform: rotate(6deg);
+      }
+
+      .navlinks {
+        display: flex;
+        gap: 1.6rem;
+        align-items: center;
+        font-size: 0.95rem;
+        font-weight: 600;
+      }
+
+      .navlinks a:not(.button) {
+        position: relative;
+        padding-block: 0.5rem;
+      }
+
+      .navlinks a:not(.button)::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        width: 100%;
+        height: 2px;
+        background: var(--green);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.22s ease;
+      }
+
+      .navlinks a:not(.button):hover::after,
+      .navlinks a:not(.button):focus-visible::after {
+        transform: scaleX(1);
+      }
+
+      .mobile-toggle {
+        display: none;
+        background: transparent;
+        border: 1.5px solid var(--green);
+        color: var(--green);
+        border-radius: 999px;
+        padding: 0.55rem 1rem;
+        font: 700 0.9rem inherit;
+        cursor: pointer;
+        min-height: 44px;
+      }
+
+      /* Buttons */
+      .button {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.9rem 1.5rem;
+        min-height: 48px;
+        border-radius: 999px;
+        font-weight: 700;
+        font-size: 0.95rem;
+        border: 1.5px solid transparent;
+        cursor: pointer;
+        transition: background-color 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+      }
+
+      .button:focus-visible,
+      a:focus-visible,
+      summary:focus-visible,
+      input:focus-visible,
+      select:focus-visible,
+      textarea:focus-visible {
+        outline: 3px solid var(--gold);
+        outline-offset: 2px;
+      }
+
+      .site-header .button:focus-visible,
+      .outcomes .button:focus-visible,
+      #services .button:focus-visible,
+      #faq summary:focus-visible,
+      .contact input:focus-visible,
+      .contact select:focus-visible,
+      .contact textarea:focus-visible {
+        outline-color: var(--green);
+      }
+
+      .button.gold {
+        background: var(--gold);
+        color: var(--deep);
+      }
+
+      .button.gold:hover {
+        background: var(--gold-hover);
+        transform: translateY(-2px);
+      }
+
+      .button.dark {
+        background: var(--green);
+        color: #fff;
+      }
+
+      .button.dark:hover {
+        background: var(--deep);
+        transform: translateY(-2px);
+      }
+
+      .button.outline {
+        border-color: rgba(255, 255, 255, 0.65);
+        color: #fff;
+      }
+
+      .button.outline:hover {
+        border-color: var(--gold);
+        color: var(--gold);
+      }
+
+      .button.outline-dark {
+        border-color: var(--green);
+        color: var(--green);
+        background: transparent;
+      }
+
+      .button.outline-dark:hover {
+        background: rgba(8, 62, 50, 0.08);
+      }
+
+      /* Headings & Section Layout */
+      h1, h2, h3 {
+        font-family: Georgia, "Times New Roman", serif;
+        letter-spacing: -0.03em;
+        margin: 0;
+        color: inherit;
+      }
+
+      section {
+        padding-block: 6.5rem;
+      }
+
+      .section-label {
+        color: var(--olive);
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        font-weight: 800;
+        margin-bottom: 0.65rem;
+      }
+
+      h2 {
+        font-size: clamp(2.25rem, 4.4vw, 3.85rem);
+        line-height: 1.06;
+        max-width: 820px;
+        margin-bottom: 1rem;
+      }
+
+      .lead {
+        max-width: 680px;
+        color: var(--muted);
+        font-size: 1.125rem;
+        margin: 0;
+      }
+
+      /* Hero */
+      .hero {
+        background: radial-gradient(circle at 85% 18%, #115c49 0%, var(--green) 52%, var(--deep) 100%);
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        padding-block: 4.5rem 5.5rem;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        width: 720px;
+        height: 720px;
+        right: -240px;
+        top: -90px;
+        border: 1px solid rgba(216, 237, 135, 0.25);
+        border-radius: 50%;
+        box-shadow: 0 0 0 65px rgba(216, 237, 135, 0.05), 0 0 0 130px rgba(216, 237, 135, 0.03);
+        pointer-events: none;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.15fr 0.85fr;
+        align-items: center;
+        gap: 3.5rem;
+        position: relative;
+        z-index: 1;
+      }
+
+      .eyebrow {
+        color: var(--gold);
+        font-size: 0.8rem;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 0.9rem;
+      }
+
+      h1 {
+        font-size: clamp(2.85rem, 5.8vw, 5.1rem);
+        line-height: 1.02;
+        margin-bottom: 1.35rem;
+      }
+
+      h1 em {
+        color: var(--gold);
+        font-style: italic;
+      }
+
+      .hero p {
+        max-width: 610px;
+        font-size: 1.18rem;
+        line-height: 1.65;
+        color: #d3e5db;
+        margin: 0 0 2rem;
+      }
+
+      .actions {
+        display: flex;
+        gap: 0.85rem;
+        flex-wrap: wrap;
+      }
+
+      .metrics {
+        margin-top: 3.25rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 620px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        padding-top: 1.35rem;
+        gap: 1.25rem;
+      }
+
+      .metrics strong {
+        display: block;
+        color: var(--gold);
+        font-size: 1rem;
+        letter-spacing: 0.01em;
+      }
+
+      .metrics span {
+        font-size: 0.82rem;
+        color: #c5dad0;
+      }
+
+      .assurance {
+        background: linear-gradient(140deg, #e1eed3 0%, #f5f5ea 100%);
+        color: var(--green);
+        padding: 2.5rem;
+        border-radius: 0 3.5rem 0 3.5rem;
+        box-shadow: 20px 26px 0 rgba(4, 30, 24, 0.55);
+      }
+
+      .assurance .eyebrow {
+        color: #3d6849;
+        margin-bottom: 0.4rem;
+      }
+
+      .assurance h2 {
+        color: var(--green);
+        font-size: clamp(1.85rem, 3vw, 2.55rem);
+        margin-bottom: 1.15rem;
+      }
+
+      .assurance ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      .assurance li {
+        padding: 0.8rem 0;
+        border-top: 1px solid rgba(8, 62, 50, 0.15);
+        color: var(--ink);
+        font-weight: 650;
+        font-size: 0.96rem;
+        display: flex;
+        align-items: baseline;
+        gap: 0.65rem;
+      }
+
+      .assurance li::before {
+        content: "✦";
+        color: #3d6849;
+        flex-shrink: 0;
+      }
+
+      /* Standards Strip */
+      .standards-bar {
+        background: var(--deep);
+        color: #d8e8df;
+        padding-block: 1.35rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .standards-inner {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .standards-label {
+        font-size: 0.78rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--gold);
+        font-weight: 800;
+      }
+
+      .standards-pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .standards-pills li {
+        font-size: 0.83rem;
+        font-weight: 600;
+        padding: 0.38rem 0.85rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.07);
+        border: 1px solid rgba(216, 237, 135, 0.25);
+      }
+
+      /* Outcomes */
+      .outcomes {
+        background: var(--cream);
+      }
+
+      .outcome-grid {
+        margin-top: 2.75rem;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
+
+      .outcome {
+        padding: 2rem 1.4rem;
+        border-right: 1px solid var(--border);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0.75rem;
+      }
+
+      .outcome:last-child {
+        border-right: 0;
+      }
+
+      .outcome .icon {
+        font-size: 2rem;
+        color: var(--olive);
+        line-height: 1;
+      }
+
+      .outcome strong {
+        display: block;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        line-height: 1.3;
+        color: var(--green);
+      }
+
+      .outcome p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+
+      /* Services */
+      .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 3rem;
+        border: 1px solid var(--border);
+      }
+
+      .service {
+        padding: 3.25rem;
+        background: var(--surface);
+        border-right: 1px solid var(--border);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: background-color 0.25s ease;
+      }
+
+      .service:first-child {
+        background: var(--sage);
+      }
+
+      .service:last-child {
+        border-right: 0;
+      }
+
+      .service h3 {
+        font-size: clamp(1.75rem, 3vw, 2.5rem);
+        color: var(--green);
+        margin-bottom: 0.75rem;
+      }
+
+      .service > div > p {
+        color: var(--muted);
+        margin: 0 0 1.5rem;
+        font-size: 1.02rem;
+      }
+
+      .service ul {
+        padding: 0;
+        list-style: none;
+        columns: 2;
+        column-gap: 1.5rem;
+        margin: 0 0 2rem;
+      }
+
+      .service li {
+        font-size: 0.92rem;
+        padding: 0.55rem 0;
+        border-top: 1px solid var(--border);
+        break-inside: avoid;
+        font-weight: 500;
+      }
+
+      .service li::before {
+        content: "✓";
+        color: var(--olive);
+        padding-right: 0.5rem;
+        font-weight: 800;
+      }
+
+      /* Industry Verticals */
+      .sectors {
+        background: var(--cream);
+      }
+
+      .sector-grid {
+        margin-top: 2.75rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.25rem;
+      }
+
+      .sector-card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-top: 4px solid var(--green);
+        padding: 1.85rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+      }
+
+      .sector-card h3 {
+        font-size: 1.35rem;
+        color: var(--green);
+      }
+
+      .sector-card p {
+        margin: 0;
+        font-size: 0.94rem;
+        color: var(--muted);
+      }
+
+      .sector-meta {
+        margin-top: auto;
+        padding-top: 0.75rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: var(--olive);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+      }
+
+      /* Case Snapshots */
+      .snapshots-grid {
+        margin-top: 2.75rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+      }
+
+      .snapshot {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.85rem;
+      }
+
+      .snapshot-tag {
+        align-self: flex-start;
+        background: var(--sage);
+        color: var(--green);
+        font-size: 0.76rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        padding: 0.3rem 0.7rem;
+        border-radius: 999px;
+      }
+
+      .snapshot h3 {
+        font-size: 1.35rem;
+        color: var(--green);
+        line-height: 1.25;
+      }
+
+      .snapshot p {
+        margin: 0;
+        font-size: 0.94rem;
+        color: var(--muted);
+      }
+
+      .snapshot-result {
+        margin-top: auto;
+        padding-top: 0.9rem;
+        border-top: 1px solid var(--border);
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: var(--green);
+      }
+
+      /* Approach / Journey */
+      .journey {
+        background: var(--deep);
+        color: #fff;
+      }
+
+      .journey .section-label {
+        color: var(--gold);
+      }
+
+      .journey .lead {
+        color: #b8d2c4;
+      }
+
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin-top: 3rem;
+        border-top: 1px solid #4d7363;
+        border-bottom: 1px solid #4d7363;
+      }
+
+      .step {
+        padding: 2rem 1.35rem;
+        border-right: 1px solid #4d7363;
+      }
+
+      .step:last-child {
+        border-right: 0;
+      }
+
+      .step b {
+        color: var(--gold);
+        display: block;
+        font-size: 0.85rem;
+        letter-spacing: 0.08em;
+      }
+
+      .step strong {
+        display: block;
+        font: 700 1.45rem Georgia, serif;
+        margin: 0.6rem 0 0.45rem;
+      }
+
+      .step span {
+        font-size: 0.9rem;
+        color: #c2d6cc;
+      }
+
+      /* Founder */
+      .founder {
+        display: grid;
+        grid-template-columns: 0.82fr 1.18fr;
+        gap: 3.5rem;
+        align-items: stretch;
+        margin-top: 2.75rem;
+      }
+
+      .founder-mark {
+        min-height: 390px;
+        background: var(--sage);
+        color: var(--green);
+        padding: 2.75rem;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid var(--border);
+      }
+
+      .founder-mark::after {
+        content: "";
+        width: 340px;
+        height: 340px;
+        border: 1px solid #a9c3a3;
+        border-radius: 50%;
+        position: absolute;
+        top: 25px;
+        right: -80px;
+        pointer-events: none;
+      }
+
+      .founder-badge {
+        align-self: flex-start;
+        background: var(--green);
+        color: var(--gold);
+        padding: 0.4rem 0.85rem;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        z-index: 1;
+      }
+
+      .founder-mark .monogram {
+        font: 800 clamp(5.5rem, 9vw, 8.2rem)/0.85 Georgia, serif;
+        letter-spacing: -0.08em;
+        z-index: 1;
+        margin-top: auto;
+      }
+
+      .founder-mark .caption {
+        margin-top: 1rem;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        color: var(--green);
+        z-index: 1;
+      }
+
+      .founder-copy {
+        align-self: center;
+      }
+
+      .founder-copy h3 {
+        font-size: clamp(2.2rem, 4vw, 3.4rem);
+        color: var(--green);
+        margin-bottom: 0.35rem;
+      }
+
+      .founder-copy .role {
+        font-weight: 750;
+        color: var(--olive);
+        font-size: 1.05rem;
+        margin-bottom: 1.15rem;
+      }
+
+      .founder-copy p {
+        color: var(--muted);
+        font-size: 1.05rem;
+        line-height: 1.7;
+        margin: 0 0 1.1rem;
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+        margin-top: 1.35rem;
+      }
+
+      .tags span {
+        background: var(--sage);
+        color: var(--green);
+        padding: 0.5rem 0.95rem;
+        border-radius: 999px;
+        font-size: 0.82rem;
+        font-weight: 700;
+      }
+
+      /* Coverage */
+      .coverage {
+        background: var(--sage);
+      }
+
+      .coverage-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 2.5rem;
+        border-top: 1px solid #9fb8a1;
+        border-bottom: 1px solid #9fb8a1;
+      }
+
+      .coverage-card {
+        padding: 2.5rem;
+        border-right: 1px solid #9fb8a1;
+      }
+
+      .coverage-card:last-child {
+        border-right: 0;
+      }
+
+      .coverage-card h3 {
+        margin-bottom: 0.6rem;
+        font-size: 1.85rem;
+        color: var(--green);
+      }
+
+      .coverage-card p {
+        color: var(--muted);
+        margin: 0 0 1rem;
+      }
+
+      .hub-list {
+        font-size: 0.88rem;
+        font-weight: 600;
+        color: var(--green);
+      }
+
+      /* FAQ Accordion (modern-web-guidance: accordion) */
+      .faq-section {
+        background: var(--surface);
+      }
+
+      .accordion {
+        margin-top: 2.5rem;
+        border-top: 1px solid var(--border);
+        max-width: 900px;
+      }
+
+      .accordion details {
+        border-bottom: 1px solid var(--border);
+      }
+
+      .accordion summary {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0.75ch;
+        padding: 1.35rem 0.5rem;
+        font-weight: 700;
+        font-size: 1.12rem;
+        color: var(--green);
+        cursor: pointer;
+      }
+
+      .accordion summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .accordion summary::before {
+        content: "";
+        inline-size: 1em;
+        block-size: 1em;
+        flex-shrink: 0;
+        background-color: currentColor;
+        mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") no-repeat center / contain;
+        rotate: -90deg;
+      }
+
+      .accordion summary:dir(rtl)::before {
+        rotate: 90deg;
+      }
+
+      .accordion details[open] > summary::before {
+        rotate: 0deg;
+      }
+
+      @media (prefers-reduced-motion: no-preference) {
+        .accordion summary::before {
+          transition: rotate 0.2s;
+        }
+      }
+
+      .accordion details::details-content {
+        interpolate-size: allow-keywords;
+        overflow: clip;
+        contain: layout;
+      }
+
+      .accordion details:not([open])::details-content {
+        block-size: 0;
+      }
+
+      @media (prefers-reduced-motion: no-preference) {
+        .accordion details::details-content {
+          transition: block-size, content-visibility, display;
+          transition-duration: 0.28s;
+          transition-timing-function: ease-in-out;
+          transition-behavior: allow-discrete;
+        }
+      }
+
+      .faq-answer {
+        padding: 0 0 1.4rem 1.75rem;
+        color: var(--muted);
+        max-width: 75ch;
+      }
+
+      /* Contact & Interactive Assessment Form */
+      .contact {
+        background: var(--gold);
+        color: var(--deep);
+      }
+
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 0.95fr 1.05fr;
+        gap: 3.5rem;
+        align-items: start;
+      }
+
+      .contact .section-label {
+        color: var(--green);
+      }
+
+      .contact h2 {
+        margin-bottom: 1rem;
+      }
+
+      .contact-intro {
+        color: var(--green);
+        font-size: 1.1rem;
+        margin: 0 0 1.75rem;
+      }
+
+      .direct-channels {
+        display: grid;
+        gap: 1rem;
+        margin-top: 2rem;
+        padding-top: 1.75rem;
+        border-top: 1px solid rgba(8, 62, 50, 0.2);
+      }
+
+      .channel-item strong {
+        display: block;
+        font-size: 0.82rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--green);
+      }
+
+      .channel-item a,
+      .channel-item span {
+        font-size: 1.15rem;
+        font-weight: 700;
+      }
+
+      .inquiry-card {
+        background: var(--surface);
+        color: var(--ink);
+        padding: 2.5rem;
+        border-radius: 1.25rem;
+        box-shadow: 0 20px 45px rgba(6, 41, 33, 0.14);
+        border: 1px solid #cad8cb;
+      }
+
+      .inquiry-card h3 {
+        font-size: 1.65rem;
+        color: var(--green);
+        margin-bottom: 0.35rem;
+      }
+
+      .inquiry-card > p {
+        margin: 0 0 1.5rem;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+
+      .field {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+        margin-block-end: 1.25rem;
+      }
+
+      .field label,
+      .field legend {
+        font-weight: 700;
+        font-size: 0.92rem;
+        color: var(--green);
+        padding: 0;
+      }
+
+      .field fieldset {
+        border: 1px solid #94a89b;
+        border-radius: 0.6rem;
+        padding: 0.75rem 1rem;
+        margin: 0;
+        width: 100%;
+      }
+
+      .radio-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.55rem 1rem;
+        margin-top: 0.35rem;
+      }
+
+      .radio-option {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        min-height: 36px;
+      }
+
+      .radio-option input[type="radio"] {
+        inline-size: 1.15rem;
+        block-size: 1.15rem;
+        margin: 0;
+        accent-color: var(--green);
+      }
+
+      .radio-option label {
+        font-weight: 500;
+        color: var(--ink);
+        cursor: pointer;
+      }
+
+      .hint {
+        display: block;
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      .field input:not([type="radio"]),
+      .field select,
+      .field textarea {
+        width: 100%;
+        font: inherit;
+        font-size: max(1rem, 1em);
+        padding: 0.7rem 0.85rem;
+        min-height: 48px;
+        border: 1.5px solid #6e8477;
+        border-radius: 0.5rem;
+        background: #fff;
+        color: var(--ink);
+      }
+
+      .field textarea {
+        min-height: 92px;
+        resize: vertical;
+      }
+
+      .error-msg {
+        display: none;
+        color: var(--error);
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-top: 0.2rem;
+      }
+
+      :is(:user-invalid, .user-invalid-fallback) {
+        border-color: var(--error) !important;
+        background-color: var(--error-bg) !important;
+      }
+
+      :is(:user-invalid, .user-invalid-fallback) + .error-msg {
+        display: block;
+      }
+
+      :is(:user-valid, .user-valid-fallback):not([type="radio"]) {
+        border-color: var(--valid);
+      }
+
+      .form-submit {
+        width: 100%;
+      }
+
+      /* Footer */
+      footer {
+        background: var(--deep);
+        color: #b9cec6;
+        padding-block: 2.75rem;
+        font-size: 0.9rem;
+      }
+
+      .footer-grid {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+        align-items: center;
+      }
+
+      footer strong {
+        color: var(--gold);
+      }
+
+      .footer-links {
+        display: flex;
+        gap: 1.25rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-links a:hover {
+        color: var(--gold);
+      }
+
+      /* Reveal motion */
+      @media (prefers-reduced-motion: no-preference) {
+        .reveal {
+          opacity: 0;
+          transform: translateY(20px);
+          transition: opacity 0.55s ease, transform 0.55s ease;
+        }
+        .reveal.in-view {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      /* Tablet & Mobile Breakpoints */
+      @media (max-width: 920px) {
+        .hero-grid,
+        .services,
+        .founder,
+        .coverage-grid,
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .service {
+          border-right: 0;
+          border-bottom: 1px solid var(--border);
+        }
+
+        .service:last-child {
+          border-bottom: 0;
+        }
+
+        .coverage-card {
+          border-right: 0;
+          border-bottom: 1px solid #9fb8a1;
+        }
+
+        .coverage-card:last-child {
+          border-bottom: 0;
+        }
+
+        .sector-grid,
+        .snapshots-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .outcome-grid,
+        .steps {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .outcome,
+        .step {
+          border-bottom: 1px solid var(--border);
+        }
+
+        .step {
+          border-bottom-color: #4d7363;
+        }
+
+        /* Prevent orphaned 5th card in 2-col layout */
+        .outcome:last-child,
+        .step:last-child {
+          grid-column: 1 / -1;
+          border-bottom: 0;
+        }
+
+        .mobile-toggle {
+          display: inline-flex;
+          align-items: center;
+        }
+
+        .nav-bar {
+          position: relative;
+        }
+
+        .navlinks {
+          display: none;
+          position: absolute;
+          top: 76px;
+          left: -1.5rem;
+          right: -1.5rem;
+          padding: 1.25rem 1.5rem 1.5rem;
+          background: var(--surface);
+          border-bottom: 1px solid var(--border);
+          flex-direction: column;
+          align-items: stretch;
+          gap: 0.5rem;
+          box-shadow: 0 18px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .navlinks.open {
+          display: flex;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .wrap {
+          width: calc(100% - 2rem);
+        }
+
+        section {
+          padding-block: 4.5rem;
+        }
+
+        .metrics,
+        .sector-grid,
+        .snapshots-grid,
+        .outcome-grid,
+        .steps,
+        .form-row,
+        .radio-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .outcome,
+        .step {
+          border-right: 0;
+        }
+
+        .service {
+          padding: 2rem 1.5rem;
+        }
+
+        .service ul {
+          columns: 1;
+        }
+
+        .assurance,
+        .inquiry-card {
+          padding: 1.75rem 1.35rem;
+        }
+
+        .actions {
+          flex-direction: column;
+          align-items: stretch;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link visually-hidden" href="#top">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="wrap nav-bar" aria-label="Primary">
+        <a class="brand" href="#top">
+          <span class="brand-mark" aria-hidden="true"><b>FA</b></span>
+          <span>foodacharya</span>
+        </a>
+        <button class="mobile-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+        <div class="navlinks" id="site-menu">
+          <a href="#services">Services</a>
+          <a href="#sectors">Industries</a>
+          <a href="#results">Impact</a>
+          <a href="#approach">Approach</a>
+          <a href="#founder">Founder</a>
+          <a href="#faq">FAQ</a>
+          <a class="button dark" href="https://wa.me/919892216853?text=Hi%20Rushikesh%2C%20I%20visited%20the%20FoodAcharya%20website%20and%20would%20like%20to%20discuss%20consulting%20for%20our%20food%2Fdairy%20business.">WhatsApp 98922 16853</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <span class="eyebrow">Food Safety, FSSAI, ISO 22000 & Manufacturing Consulting</span>
+            <h1>Safe food.<br />Smart factories.<br /><em>Audit-ready growth.</em></h1>
+            <p>Practical food-safety systems, FSSAI &amp; ISO 22000 compliance, hygienic plant layout, and dairy &amp; food operations consulting—on the ground in Maharashtra and remotely across India.</p>
+            <div class="actions">
+              <a class="button gold" href="https://wa.me/919892216853?text=Hi%20Rushikesh%2C%20we%20are%20looking%20for%20food%20safety%20%2F%20manufacturing%20consulting%20support%20from%20FoodAcharya.">WhatsApp 98922 16853</a>
+              <a class="button outline" href="#contact">Request a Plant Assessment</a>
+              <a class="button outline" href="tel:+919892216853">Call +91 98922 16853</a>
+            </div>
+            <div class="metrics">
+              <div>
+                <strong>Maharashtra</strong>
+                <span>On-site plant walkthroughs &amp; audits</span>
+              </div>
+              <div>
+                <strong>All India</strong>
+                <span>Remote SOPs, layout &amp; review support</span>
+              </div>
+              <div>
+                <strong>Food &amp; Dairy</strong>
+                <span>Led by an IRCA/FSMS Lead Auditor</span>
+              </div>
+            </div>
+          </div>
+          <aside class="assurance" aria-label="Core capabilities">
+            <span class="eyebrow">The FoodAcharya Advantage</span>
+            <h2>Make quality a daily floor habit.</h2>
+            <ul>
+              <li>FSSAI Licensing, FoSCoS &amp; Schedule 4 Readiness</li>
+              <li>HACCP, ISO 22000 &amp; FSSC 22000 Implementation</li>
+              <li>Greenfield &amp; Brownfield Hygienic Plant Layout</li>
+              <li>Dairy Processing, CIP &amp; Cold-Chain Optimization</li>
+              <li>Shop-Floor Training in Marathi, Hindi &amp; English</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <div class="standards-bar" role="region" aria-label="Supported regulatory and quality frameworks">
+        <div class="wrap standards-inner">
+          <span class="standards-label">Frameworks &amp; Audits Covered</span>
+          <ul class="standards-pills">
+            <li>FSSAI Schedule 4</li>
+            <li>ISO 22000:2018</li>
+            <li>FSSC 22000</li>
+            <li>HACCP &amp; Codex GMP</li>
+            <li>BRCGS Readiness</li>
+            <li>FoSTaC Aligned Training</li>
+            <li>Customer &amp; 3rd-Party Audits</li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="outcomes">
+        <div class="wrap">
+          <div class="section-label">What Changes on Your Shop Floor</div>
+          <h2>Built for confidence at every stage of production.</h2>
+          <p class="lead">We replace shelf-bound paperwork with practical systems your supervisors and operators can actually run every shift.</p>
+          <div class="outcome-grid">
+            <div class="outcome">
+              <span class="icon" aria-hidden="true">◈</span>
+              <strong>Audit-Ready<br />Compliance</strong>
+              <p>Zero last-minute panic before FSSAI inspections, ISO surveillance, or B2B buyer audits.</p>
+            </div>
+            <div class="outcome">
+              <span class="icon" aria-hidden="true">✺</span>
+              <strong>Consistent<br />Product Quality</strong>
+              <p>Standardized CCPs, batch records, and shelf-life stability across every production lot.</p>
+            </div>
+            <div class="outcome">
+              <span class="icon" aria-hidden="true">↗</span>
+              <strong>Unidirectional<br />Plant Flow</strong>
+              <p>Hygienic zoning that eliminates cross-contamination between raw, processing, and packing zones.</p>
+            </div>
+            <div class="outcome">
+              <span class="icon" aria-hidden="true">▥</span>
+              <strong>Lower Rework<br />&amp; Wastage</strong>
+              <p>Tighter yield control, optimized CIP cycles, and fewer rejected batches or market returns.</p>
+            </div>
+            <div class="outcome">
+              <span class="icon" aria-hidden="true">♧</span>
+              <strong>Trained<br />Floor Teams</strong>
+              <p>Operators and QA teams coached in local languages to own hygiene and CCP logs daily.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="wrap">
+          <div class="section-label">Consulting Services</div>
+          <h2>From regulatory compliance to higher-performing factories.</h2>
+          <p class="lead">Whether you are setting up a new processing line, preparing for certification, or solving recurring quality issues, we tailor the engagement to your plant.</p>
+          <div class="services">
+            <article class="service">
+              <div>
+                <h3>Food Safety, Compliance &amp; Quality</h3>
+                <p>Build practical, audit-proof food safety management systems that protect your brand and unlock institutional &amp; retail buyers.</p>
+                <ul>
+                  <li>FSSAI licensing &amp; Schedule 4 gap audits</li>
+                  <li>ISO 22000 / FSSC 22000 &amp; HACCP systems</li>
+                  <li>Bilingual SOPs &amp; batch documentation</li>
+                  <li>Internal audits &amp; CAPA root-cause closure</li>
+                  <li>Allergen, pest &amp; sanitation programs</li>
+                  <li>Operator food-safety &amp; hygiene training</li>
+                </ul>
+              </div>
+              <div>
+                <a class="button dark" href="https://wa.me/919892216853?text=Hi%20Rushikesh%2C%20we%20need%20help%20with%20Food%20Safety%20%2F%20FSSAI%20%2F%20ISO%2022000%20compliance%20for%20our%20facility.">Discuss Food Safety &amp; Audits</a>
+              </div>
+            </article>
+            <article class="service">
+              <div>
+                <h3>Manufacturing, Layout &amp; Operations</h3>
+                <p>Engineer cleaner workflows, better machinery decisions, and leaner unit economics across food and dairy manufacturing.</p>
+                <ul>
+                  <li>Greenfield &amp; Brownfield plant layout design</li>
+                  <li>Man, material &amp; air-handling hygiene flow</li>
+                  <li>Machinery &amp; processing line selection</li>
+                  <li>New product development (NPD) &amp; scale-up</li>
+                  <li>Dairy CIP, yield &amp; wastage optimization</li>
+                  <li>Raw material &amp; cold-chain vendor audits</li>
+                </ul>
+              </div>
+              <div>
+                <a class="button outline-dark" href="https://wa.me/919892216853?text=Hi%20Rushikesh%2C%20we%20need%20consulting%20on%20Plant%20Layout%2C%20Machinery%2C%20or%20Manufacturing%20Operations.">Discuss Plant &amp; Operations</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="sectors" id="sectors">
+        <div class="wrap">
+          <div class="section-label">Industries We Serve</div>
+          <h2>Deep domain focus across food &amp; dairy categories.</h2>
+          <p class="lead">Every food category carries unique microbiological, thermal, and operational risks. Our guidance is grounded in category-specific processing realities.</p>
+          <div class="sector-grid">
+            <article class="sector-card">
+              <h3>Dairy &amp; Milk Processing</h3>
+              <p>Pasteurized pouch milk, paneer, ghee, curd, shrikhand, khoa, ice cream, and flavoured milk units.</p>
+              <span class="sector-meta">CIP Validation · Cold Chain · MBRT &amp; Microbial Control</span>
+            </article>
+            <article class="sector-card">
+              <h3>Bakery, Snacks &amp; Confectionery</h3>
+              <p>Commercial bakeries, namkeen/farsan plants, biscuits, extruded snacks, and traditional sweets (mithai).</p>
+              <span class="sector-meta">Allergen Zoning · Frying Oil TPM · Shelf-Life</span>
+            </article>
+            <article class="sector-card">
+              <h3>Spices, Masala &amp; Condiments</h3>
+              <p>Whole and blended spices, wet pastes, sauces, pickles, and ready-to-cook gravies.</p>
+              <span class="sector-meta">Dust Control · Moisture &amp; Aflatoxin · Metal Detection</span>
+            </article>
+            <article class="sector-card">
+              <h3>Ready-to-Eat &amp; Frozen Foods</h3>
+              <p>Retort pouches, frozen parathas/snacks, institutional commissaries, and central kitchens.</p>
+              <span class="sector-meta">Thermal CCPs · Blast Freezing · High-Care Zoning</span>
+            </article>
+            <article class="sector-card">
+              <h3>Fruit, Vegetable &amp; Beverage Lines</h3>
+              <p>Pulp processing, juices, RTS beverages, dehydrated produce, and packaged drinking water.</p>
+              <span class="sector-meta">Water Treatment · Hot-Fill / Aseptic · Sanitation SOPs</span>
+            </article>
+            <article class="sector-card">
+              <h3>Nutraceuticals &amp; Ingredients</h3>
+              <p>Health powders, protein blends, premixes, and B2B functional food ingredients.</p>
+              <span class="sector-meta">GMP Cleanrooms · Batch Traceability · COA Systems</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="results">
+        <div class="wrap">
+          <div class="section-label">Representative Engagements</div>
+          <h2>Practical interventions. Measurable factory outcomes.</h2>
+          <p class="lead">Examples of how structured food-safety and operational consulting translates into plant performance.</p>
+          <div class="snapshots-grid">
+            <article class="snapshot">
+              <span class="snapshot-tag">Dairy Processing · Western Maharashtra</span>
+              <h3>ISO 22000 Readiness &amp; CIP Process Standardization</h3>
+              <p>Rebuilt raw-milk reception checks, pasteurizer CCP logs, and CIP chemical concentration monitoring for a regional dairy plant experiencing inconsistent shelf-life.</p>
+              <div class="snapshot-result">Result: Passed external audit with zero major non-conformities &amp; cut batch rework.</div>
+            </article>
+            <article class="snapshot">
+              <span class="snapshot-tag">Greenfield Plant · Pune Belt</span>
+              <h3>Hygienic Layout Design Prior to Civil Execution</h3>
+              <p>Redesigned equipment placement, drainage slopes, change-room airlocks, and raw-to-finished material flow before floor slab casting.</p>
+              <div class="snapshot-result">Result: Full FSSAI Schedule 4 compliance without expensive post-build civil demolition.</div>
+            </article>
+            <article class="snapshot">
+              <span class="snapshot-tag">Snacks &amp; Spices · All-India B2B Supplier</span>
+              <h3>Customer Audit Turnaround &amp; Bilingual Floor SOPs</h3>
+              <p>Translated complex QA manuals into visual Marathi/Hindi checklists at weighing, roasting, metal detection, and packing stations.</p>
+              <div class="snapshot-result">Result: Closed 25+ buyer audit observations in 6 weeks and onboarded modern-trade clients.</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="journey" id="approach">
+        <div class="wrap">
+          <div class="section-label">How We Work</div>
+          <h2>Five clear steps from gap audit to daily habit.</h2>
+          <p class="lead">Every engagement is structured around your production schedule, your workforce, and the highest-impact operational priorities.</p>
+          <div class="steps">
+            <div class="step">
+              <b>STEP 01</b>
+              <strong>Understand</strong>
+              <span>Walk the floor, map current process flows, and align on business &amp; regulatory goals.</span>
+            </div>
+            <div class="step">
+              <b>STEP 02</b>
+              <strong>Assess</strong>
+              <span>Conduct a clause-by-clause &amp; line-by-line gap assessment with photo evidence.</span>
+            </div>
+            <div class="step">
+              <b>STEP 03</b>
+              <strong>Design</strong>
+              <span>Build practical layouts, hazard analyses, SOPs, and prioritized CAPA action plans.</span>
+            </div>
+            <div class="step">
+              <b>STEP 04</b>
+              <strong>Enable</strong>
+              <span>Train QA teams, supervisors, and operators on the floor until records run smoothly.</span>
+            </div>
+            <div class="step">
+              <b>STEP 05</b>
+              <strong>Verify</strong>
+              <span>Run mock audits, verify metrics, and support you through certification or buyer inspections.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="founder">
+        <div class="wrap">
+          <div class="section-label">Leadership</div>
+          <h2>Guidance grounded in real factory operations.</h2>
+          <div class="founder">
+            <div class="founder-mark">
+              <span class="founder-badge">FSMS Lead Auditor</span>
+              <div class="monogram" aria-hidden="true">RK</div>
+              <span class="caption">Rushikesh Karande · FoodAcharya</span>
+            </div>
+            <div class="founder-copy">
+              <h3>Rushikesh Karande</h3>
+              <div class="role">Founder &amp; Principal Consultant · FSMS Lead Auditor (ISO 22000)</div>
+              <p>Rushikesh founded FoodAcharya to bridge the gap between textbook compliance and the daily realities of Indian food and dairy plants. With hands-on expertise across Food Safety Management Systems (FSMS), dairy and food plant operations, and supply-chain quality, he works directly with promoters, plant heads, and QA teams.</p>
+              <p>Instead of handing over generic template binders, he focuses on practical engineering controls, shop-floor coaching, and cost-conscious improvements that protect both food safety and operating margins.</p>
+              <div class="tags" aria-label="Core credentials and specialties">
+                <span>FSMS Lead Auditor</span>
+                <span>ISO 22000 &amp; HACCP</span>
+                <span>FSSAI Schedule 4</span>
+                <span>Dairy &amp; Food Operations</span>
+                <span>Plant Layout &amp; GMP</span>
+                <span>Supply Chain Quality</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="coverage">
+        <div class="wrap">
+          <div class="section-label">Where We Work</div>
+          <h2>Hands-on across Maharashtra. Remote across India.</h2>
+          <div class="coverage-grid">
+            <article class="coverage-card">
+              <h3>On-Ground in Maharashtra</h3>
+              <p>Direct factory visits for diagnostic gap audits, layout marking, machinery trials, mock inspections, and hands-on operator training.</p>
+              <div class="hub-list">Serving Pune · Mumbai · Nashik · Kolhapur · Satara · Sangli · Solapur · Ahmednagar · Chhatrapati Sambhajinagar · Nagpur</div>
+            </article>
+            <article class="coverage-card">
+              <h3>Remote Consulting Across India</h3>
+              <p>Structured remote engagements for CAD layout reviews, FSSAI/ISO documentation, supplier qualification, and guided video walkthroughs.</p>
+              <div class="hub-list">Fast turnaround via WhatsApp, video floor-audits &amp; shared implementation trackers</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section" id="faq">
+        <div class="wrap">
+          <div class="section-label">Common Questions</div>
+          <h2 id="faq-heading">Frequently asked questions.</h2>
+          <div class="accordion" role="group" aria-labelledby="faq-heading">
+            <details open>
+              <summary>Do you help with new (Greenfield) food or dairy plant layout before construction?</summary>
+              <div class="faq-answer">
+                Yes. Reviewing your layout before civil work begins is the single best way to avoid costly demolition later. We align your architect's CAD drawings with FSSAI Schedule 4 and ISO 22000 unidirectional man-and-material flow, hygienic zoning, drainage, air handling, and utility routing.
+              </div>
+            </details>
+            <details>
+              <summary>How long does it take to prepare a facility for FSSAI Schedule 4, HACCP, or ISO 22000 certification?</summary>
+              <div class="faq-answer">
+                Depending on plant size and current maturity, FSSAI Schedule 4 and HACCP readiness typically takes 4 to 8 weeks. Full ISO 22000 or FSSC 22000 implementation—including hazard analysis, SOP rollout, floor training, internal audit, and management review—typically takes 8 to 14 weeks.
+              </div>
+            </details>
+            <details>
+              <summary>Can your team train shop-floor operators in Marathi and Hindi?</summary>
+              <div class="faq-answer">
+                Absolutely. Documentation that stays in a QA cabin does not prevent contamination. We conduct practical shop-floor hygiene, personal sanitation, allergen, and CCP monitoring sessions in Marathi, Hindi, and English so operators understand both the "how" and the "why."
+              </div>
+            </details>
+            <details>
+              <summary>We are a growing MSME food business—do we need a full-time retainer or project-based support?</summary>
+              <div class="faq-answer">
+                We offer both. You can start with a focused 1-to-2 day Diagnostic Gap Audit or a fixed-scope project (such as Plant Layout Design or ISO 22000 Certification Readiness), and optionally transition to a monthly quality &amp; audit retainer as your production scales.
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="wrap contact-grid">
+          <div>
+            <div class="section-label">Start the Conversation</div>
+            <h2>Let’s make your next plant improvement count.</h2>
+            <p class="contact-intro">Tell us about your food or dairy facility, upcoming audit, or expansion plan. Speak directly with Rushikesh Karande to scope the right next step.</p>
+            <div class="actions">
+              <a class="button dark" href="https://wa.me/919892216853?text=Hi%20Rushikesh%2C%20I%20would%20like%20to%20schedule%20a%20discovery%20call%20with%20FoodAcharya.">WhatsApp +91 98922 16853</a>
+              <a class="button outline-dark" href="tel:+919892216853">Call +91 98922 16853</a>
+            </div>
+            <div class="direct-channels">
+              <div class="channel-item">
+                <strong>Direct WhatsApp &amp; Phone</strong>
+                <a href="https://wa.me/919892216853">+91 98922 16853</a>
+              </div>
+              <div class="channel-item">
+                <strong>Consultation Coverage</strong>
+                <span>On-Site Across Maharashtra · Remote Across India</span>
+              </div>
+              <div class="channel-item">
+                <strong>Working Hours</strong>
+                <span>Monday – Saturday · 9:00 AM – 7:00 PM IST</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="inquiry-card">
+            <h3 id="inquiry-heading">Quick Plant &amp; Audit Inquiry</h3>
+            <p>Fill in your facility details below to generate a structured WhatsApp consultation request directly to our lead auditor.</p>
+            <form id="inquiry-form" aria-labelledby="inquiry-heading" action="https://wa.me/919892216853" method="GET" novalidate>
+              <div class="form-row">
+                <div class="field">
+                  <label for="client-name">Your Name <span aria-hidden="true">*</span></label>
+                  <input
+                    type="text"
+                    id="client-name"
+                    name="name"
+                    required
+                    minlength="2"
+                    autocomplete="name"
+                    enterkeyhint="next"
+                    data-error="name-error"
+                  />
+                  <div id="name-error" class="error-msg">
+                    <span role="img" aria-label="Error">❌</span> Please enter your full name (at least 2 characters).
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label for="company-name">Company / Plant Name <span aria-hidden="true">*</span></label>
+                  <input
+                    type="text"
+                    id="company-name"
+                    name="company"
+                    required
+                    autocomplete="organization"
+                    enterkeyhint="next"
+                    data-error="company-error"
+                  />
+                  <div id="company-error" class="error-msg">
+                    <span role="img" aria-label="Error">❌</span> Please enter your company or plant name.
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="field">
+                  <label for="client-phone">Phone / WhatsApp Number <span aria-hidden="true">*</span></label>
+                  <span id="phone-hint" class="hint">10-digit Indian mobile number</span>
+                  <input
+                    type="tel"
+                    id="client-phone"
+                    name="phone"
+                    required
+                    inputmode="numeric"
+                    autocomplete="tel"
+                    pattern="(\+91[\-\s]?)?[6-9]\d{9}"
+                    aria-describedby="phone-hint"
+                    enterkeyhint="next"
+                    data-error="phone-error"
+                  />
+                  <div id="phone-error" class="error-msg">
+                    <span role="img" aria-label="Error">❌</span> Enter a valid 10-digit mobile number (e.g., 9892216853).
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label for="industry-sector">Industry Sector <span aria-hidden="true">*</span></label>
+                  <select id="industry-sector" name="sector" required data-error="sector-error">
+                    <option value="">Select your category…</option>
+                    <option value="Dairy & Milk Processing">Dairy &amp; Milk Processing</option>
+                    <option value="Bakery, Snacks & Confectionery">Bakery, Snacks &amp; Confectionery</option>
+                    <option value="Spices, Masala & Condiments">Spices, Masala &amp; Condiments</option>
+                    <option value="Ready-to-Eat (RTE) & Frozen Foods">Ready-to-Eat (RTE) &amp; Frozen Foods</option>
+                    <option value="Fruits, Vegetables & Beverages">Fruits, Vegetables &amp; Beverages</option>
+                    <option value="Nutraceuticals / Ingredients / Other">Nutraceuticals / Ingredients / Other</option>
+                  </select>
+                  <div id="sector-error" class="error-msg">
+                    <span role="img" aria-label="Error">❌</span> Please select your food or dairy sector.
+                  </div>
+                </div>
+              </div>
+
+              <div class="field">
+                <fieldset>
+                  <legend>Primary Consulting Need</legend>
+                  <div class="radio-grid">
+                    <div class="radio-option">
+                      <input type="radio" id="need-audit" name="need" value="FSSAI / ISO 22000 / HACCP Audit" checked />
+                      <label for="need-audit">FSSAI / ISO 22000 / HACCP</label>
+                    </div>
+                    <div class="radio-option">
+                      <input type="radio" id="need-layout" name="need" value="Plant Layout & New Line Setup" />
+                      <label for="need-layout">Plant Layout &amp; Line Setup</label>
+                    </div>
+                    <div class="radio-option">
+                      <input type="radio" id="need-ops" name="need" value="Quality, Yield & Operations" />
+                      <label for="need-ops">Quality, Yield &amp; Operations</label>
+                    </div>
+                    <div class="radio-option">
+                      <input type="radio" id="need-training" name="need" value="Staff Training & SOPs" />
+                      <label for="need-training">Staff Training &amp; SOPs</label>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+
+              <div class="field">
+                <label for="facility-notes">Plant City &amp; Key Challenge (Optional)</label>
+                <textarea
+                  id="facility-notes"
+                  name="notes"
+                  placeholder="e.g., Dairy plant in Kolhapur preparing for ISO 22000 audit next quarter…"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="button dark form-submit">Send Inquiry via WhatsApp (98922 16853)</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap footer-grid">
+        <div>
+          <strong>FOODACHARYA</strong> · Food Safety, Quality &amp; Manufacturing Consulting · Led by Rushikesh Karande
+        </div>
+        <div class="footer-links">
+          <a href="https://wa.me/919892216853">WhatsApp: +91 98922 16853</a>
+          <a href="tel:+919892216853">Call: 98922 16853</a>
+          <span>Maharashtra &amp; Pan-India</span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const menuButton = document.querySelector('.mobile-toggle');
+      const menu = document.querySelector('#site-menu');
+      menuButton.addEventListener('click', () => {
+        const open = menu.classList.toggle('open');
+        menuButton.setAttribute('aria-expanded', String(open));
+        menuButton.textContent = open ? 'Close' : 'Menu';
+      });
+      menu.querySelectorAll('a').forEach((link) =>
+        link.addEventListener('click', () => {
+          menu.classList.remove('open');
+          menuButton.setAttribute('aria-expanded', 'false');
+          menuButton.textContent = 'Menu';
+        })
+      );
+
+      // Scroll reveal animation
+      const sections = document.querySelectorAll('main section:not(.hero)');
+      sections.forEach((section) => section.classList.add('reveal'));
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(
+          (entries) =>
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('in-view');
+                observer.unobserve(entry.target);
+              }
+            }),
+          { threshold: 0.1 }
+        );
+        sections.forEach((section) => observer.observe(section));
+      } else {
+        sections.forEach((section) => section.classList.add('in-view'));
+      }
+
+      // Accessible post-interaction validation (modern-web-guidance: validate-input-after-interaction)
+      const linkError = (el, shown) => {
+        const errorId = el.dataset.error;
+        if (!errorId) return;
+        const ids = (el.getAttribute('aria-describedby') || '')
+          .split(/\s+/)
+          .filter((id) => id && id !== errorId);
+        if (shown) ids.push(errorId);
+        if (ids.length) el.setAttribute('aria-describedby', ids.join(' '));
+        else el.removeAttribute('aria-describedby');
+      };
+
+      const announcer = document.createElement('div');
+      announcer.setAttribute('aria-live', 'polite');
+      announcer.classList.add('visually-hidden');
+      document.body.append(announcer);
+      let announceTimer;
+      let announcedField;
+
+      const spokenText = (node) => {
+        const copy = node.cloneNode(true);
+        copy.querySelectorAll('[aria-hidden="true"]').forEach((n) => n.remove());
+        copy
+          .querySelectorAll('[role="img"][aria-label]')
+          .forEach((n) => n.replaceWith(`${n.getAttribute('aria-label')}: `));
+        return copy.textContent.replace(/\s+/g, ' ').trim();
+      };
+
+      const announceError = (el) => {
+        const error = document.getElementById(el.dataset.error);
+        if (!error) return;
+        const label = el.labels?.[0] ? `${spokenText(el.labels[0])}: ` : '';
+        clearTimeout(announceTimer);
+        announcer.textContent = '';
+        announcedField = el;
+        announceTimer = setTimeout(() => {
+          announcer.textContent = label + spokenText(error);
+        }, 500);
+      };
+
+      const flagged = new WeakSet();
+      const announced = new WeakSet();
+      const supportsUserInvalid = CSS.supports('selector(:user-invalid)');
+
+      const syncAria = (el, announce = false) => {
+        if (!el.matches?.('input, select, textarea')) return;
+        const invalid = supportsUserInvalid
+          ? el.matches(':user-invalid')
+          : el.classList.contains('user-invalid-fallback');
+        if (invalid) {
+          if (announce && !announced.has(el)) {
+            announceError(el);
+            announced.add(el);
+          }
+          el.setAttribute('aria-invalid', 'true');
+          linkError(el, true);
+          flagged.add(el);
+        } else if (flagged.has(el) || el.getAttribute('aria-invalid') !== 'true') {
+          el.setAttribute('aria-invalid', 'false');
+          linkError(el, false);
+          flagged.delete(el);
+          announced.delete(el);
+          if (announcedField === el) {
+            clearTimeout(announceTimer);
+            announcer.textContent = '';
+          }
+        }
+      };
+
+      document.querySelectorAll('input, select, textarea').forEach((el) => syncAria(el));
+      document.addEventListener('blur', (e) => syncAria(e.target, true), true);
+      document.addEventListener('input', (e) => {
+        if (e.target.hasAttribute('aria-invalid')) syncAria(e.target);
+      });
+      document.addEventListener('change', (e) => syncAria(e.target, true), true);
+      document.addEventListener(
+        'invalid',
+        (e) => {
+          announced.add(e.target);
+          syncAria(e.target);
+        },
+        true
+      );
+
+      // Fallback for browsers without :user-invalid
+      if (!supportsUserInvalid) {
+        const dirtyState = new WeakMap();
+        const updateFallback = (input) => {
+          const isValid = input.validity.valid;
+          input.classList.toggle('user-invalid-fallback', !isValid);
+          input.classList.toggle('user-valid-fallback', isValid);
+          syncAria(input, !isValid);
+        };
+        document.addEventListener(
+          'blur',
+          (e) => {
+            const input = e.target;
+            if (!input.checkValidity) return;
+            const state = dirtyState.get(input) || { hasInteracted: false, hasBlurred: false };
+            state.hasBlurred = true;
+            dirtyState.set(input, state);
+            if (state.hasInteracted) updateFallback(input);
+          },
+          true
+        );
+        document.addEventListener('input', (e) => {
+          const input = e.target;
+          if (!input.checkValidity) return;
+          const state = dirtyState.get(input) || { hasInteracted: false, hasBlurred: false };
+          state.hasInteracted = true;
+          dirtyState.set(input, state);
+          if (state.hasBlurred) updateFallback(input);
+        });
+      }
+
+      // Inquiry form -> WhatsApp 9892216853 redirect
+      const inquiryForm = document.getElementById('inquiry-form');
+      inquiryForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        if (!inquiryForm.checkValidity()) {
+          const firstInvalid = inquiryForm.querySelector(':invalid');
+          if (firstInvalid) {
+            firstInvalid.classList.add('user-invalid-fallback');
+            syncAria(firstInvalid);
+            firstInvalid.focus();
+          }
+          return;
+        }
+        const data = new FormData(inquiryForm);
+        const lines = [
+          'Hi Rushikesh, I would like to discuss consulting with FoodAcharya:',
+          `• Name: ${data.get('name').trim()}`,
+          `• Company/Plant: ${data.get('company').trim()}`,
+          `• Phone: ${data.get('phone').trim()}`,
+          `• Sector: ${data.get('sector')}`,
+          `• Primary Need: ${data.get('need')}`
+        ];
+        const notes = (data.get('notes') || '').trim();
+        if (notes) lines.push(`• Details: ${notes}`);
+        const waUrl = `https://wa.me/919892216853?text=${encodeURIComponent(lines.join('\n'))}`;
+        window.open(waUrl, '_blank', 'noopener,noreferrer');
+      });
+    </script>
+  </body>
+</html>
